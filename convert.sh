@@ -1,9 +1,10 @@
 #!/bin/bash
 
-# Directory containing the files
-input_dir="/Users/deren/Documents/Z_Convert/"
+# Enter the Directory containing the files
+read -p "Enter the full directory path with the images: " input_dir
 
-pngString=".png"
+# PNG file extension
+png_string=".png"
 
 # Check if the directory exists
 if [ ! -d "$input_dir" ]; then
@@ -24,8 +25,9 @@ for file in "$input_dir"/*; do
 
     # Set PNG name
     file_name="${base_name%.*}"
-    png_name="$input_dir/$file_name$pngString"
+    png_name="$input_dir/$file_name$png_string"
 
+    # Converts file from .heic to .png
     magick "$heic_name" "$png_name"
   fi
 done
