@@ -4,7 +4,7 @@ Enter a full path to a directory with your .heic files, then run the script. All
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Open a terminal where you have the script filed `convert.sh` saved, and run the two commands.
 
 ### Prerequisites
 
@@ -18,7 +18,7 @@ Install ImageMagick
 brew isntall imagemagick
 ```
 
-Run bash Script
+Command for file executable permission
 
 ```
 chmod +x convert.sh
@@ -32,11 +32,7 @@ Run bash Script
 
 ## Authors
 
-* **Deren** - [PurpleBooth](https://github.com/DerenB)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Deren** - [GitHub](https://github.com/DerenB)
 
 ## Acknowledgments
 
