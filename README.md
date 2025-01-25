@@ -1,4 +1,4 @@
-# .heic to .png Converter
+# .heic to .png Converter using Bash
 
 Enter a full path to a directory with your .heic files, then run the script. All .heic files in the directory will be converted to .png files.
 
