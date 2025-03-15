@@ -15,7 +15,7 @@ You need homebrew installed and the ImageMagick package. Instructions for instal
 Install ImageMagick
 
 ```
-brew isntall imagemagick
+brew install imagemagick
 ```
 
 Command for file executable permission
